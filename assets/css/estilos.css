@@ -1,0 +1,219 @@
+/*footer:hover{
+  background: red;
+}*/
+
+
+/*---------------------------------------------------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+
+.square {
+    float:left;
+    position: relative;
+    width: 24%;
+    padding-bottom : 24%; /* = width for a 1:1 aspect ratio */
+    /*margin:1.66%;*/
+    background-color:#1E1E1E;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:100%; /* = 100% - 2*5% padding */
+    width:100%; /* = 100% - 2*5% padding */
+    /*padding: 5%;*/
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+#contenido1 {
+    position:absolute;
+    height:100%; /* = 100% - 2*5% padding */
+    width:100%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.square div span{
+	display:none;
+}
+
+/*#hiddenText{
+	display: none;
+}*/
+
+div.square div.content:hover span{
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+/*#contenido1:hover #hiddenText{
+	background: rgba(140,103,85,0.5);
+	height: 100%;
+	width: 100%;
+	display: block;
+}*/
+
+
+
+
+/*  For responsive images */
+
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+
+.img1{
+    background-image: url('../assets/images/smile-girl.jpg');
+}
+.img2{
+    background-image: url('assets/images/galeria-dulce2.jpeg');
+}
+.img3{
+    background-image: url('assets/images/galeria-dulce3.jpg');
+}
+.img4{
+	background-image: url('assets/images/galeria-dulce4.jpg');
+}
+.img5{
+	background-image: url('assets/images/galeria-dulce5.jpg');
+}
+.img6{
+	background-image: url('assets/images/galeria-dulce6.jpg');
+}
+.img7{
+	background-image: url('assets/images/galeria-dulce7.jpg');
+}
+.img8{
+	background-image: url('assets/images/galeria-dulce8.jpg');
+}
+
+/*  following just for the demo */
+
+
+body {
+    font-size:20px;
+    font-family: 'Lato',verdana, sans-serif;
+    /*color: #fff;*/
+    /*background:#ECECEC;*/
+}
+
+.numbers{
+    font-weight:900;
+    font-size:100px;
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------------------*/
+
+
+
+
+
+.nav-wrapper li a:hover{
+  color: #1AB188;
+}
+
+.inicio{
+	background-color: rgba(0,0,0,0.2);
+}
+
+.letra{
+
+	font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black","sans serif";
+	font-size: 5em;
+	margin-top: 2em;
+	color:#003322;
+}
+
+#proceso img{
+	max-width: 100%;
+}
+
+#texto-proceso{
+	text-align: center;
+	margin-bottom: 2em;
+	color:#1AB188;
+}
+
+#logo{
+	max-height: 100%
+}
+
+
+	#brand{
+		margin-top: 15px;
+		height: 30px;
+		margin-left: 10px;
+
+}
+
+
+.seccion{
+	padding: 80px 0;
+}
+
+.descripcion-seccion{
+	text-align: center;
+}
+
+
+.titulo-seccion{
+
+	font-size: 36px;
+    text-transform: uppercase;
+    color: #EA6918;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    margin: 0 0 48px 0;
+}
+
+.slide-fonts{
+	style="font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    margin: 0 0 48px 0;
+}
+
+
+.list-inline{
+	padding-left: 0;
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    display: inline-block;
+}
+
+.fbody{
+	background: url(assets/images/fondo.jpg) no-repeat;
+	background-size: cover;
+}
+
+
+.transicion{
+	transition: .3s ease-out
+}
